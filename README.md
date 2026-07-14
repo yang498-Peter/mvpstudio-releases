@@ -19,6 +19,9 @@
   <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/download/v1.0.8-rc.1/MVPStudio-Setup-1.0.8-rc.1.exe.sha256">SHA-256</a>
 </p>
 
+> [!IMPORTANT]
+> **Free trial activation:** Most advanced MVPStudio features require a valid activation code. Email Tersus Sales at [sales@tersus-gnss.com](mailto:sales@tersus-gnss.com) to request a free trial activation code.
+
 <p align="center">
   <img src="assets/mvpstudio-hero.jpg" width="100%" alt="MVPStudio point-cloud software with the Tersus MVP S1 scanner">
 </p>
