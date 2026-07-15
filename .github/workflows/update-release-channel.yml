@@ -1,0 +1,47 @@
+name: Update release channel manifest
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Published release tag to rebuild into updates.json
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-release-channel
+  cancel-in-progress: false
+
+jobs:
+  update-manifest:
+    name: Publish update metadata
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Build channel manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: node .github/scripts/update-manifest.mjs
+
+      - name: Commit manifest
+        shell: bash
+        run: |
+          if git diff --quiet -- updates.json; then
+            echo "updates.json is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- updates.json
+          git commit -m "chore: update release channel manifest"
+          git push
