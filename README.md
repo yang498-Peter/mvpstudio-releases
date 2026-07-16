@@ -12,11 +12,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/download/v1.0.8-rc.1/MVPStudio-Setup-1.0.8-rc.1.exe"><strong>Download MVPStudio V1.0.8 RC</strong></a>
+  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/download/v1.0.9-rc.1/MVPStudio-Setup-1.0.9-rc.1.exe"><strong>Download MVPStudio V1.0.9 RC</strong></a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/tag/v1.0.8-rc.1">Release notes</a>
+  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/tag/v1.0.9-rc.1">Release notes</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/download/v1.0.8-rc.1/MVPStudio-Setup-1.0.8-rc.1.exe.sha256">SHA-256</a>
+  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases/download/v1.0.9-rc.1/MVPStudio-Setup-1.0.9-rc.1.exe.sha256">SHA-256</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/yang498-Peter/mvpstudio-releases/releases">Browse current and previous releases</a>
 </p>
 
 > [!IMPORTANT]
@@ -80,11 +84,11 @@ MVPStudio is also expanding into mobile laser scanning workflows for roads, rail
 
 | | |
 | --- | --- |
-| **Version** | MVPStudio V1.0.8 RC |
+| **Version** | MVPStudio V1.0.9 RC |
 | **Platform** | Windows 10/11, 64-bit |
-| **Installer** | `MVPStudio-Setup-1.0.8-rc.1.exe` |
-| **Size** | 1,995,284,795 bytes |
-| **SHA-256** | `AB2C4D2A7CAD99874D67B434BB6C7FB878C0062C26AF7366B359CAE7812A4FED` |
+| **Installer** | `MVPStudio-Setup-1.0.9-rc.1.exe` |
+| **Size** | 1,960,580,432 bytes |
+| **SHA-256** | `33AB97492125AD00EC03AEEBD151B8E5421AC013636FBF32D9BA1B68007998C0` |
 
 This is a release-candidate build. Validate it with representative project data before production use. A modern dedicated GPU and SSD are recommended for large point-cloud projects.
 
